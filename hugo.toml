@@ -1,0 +1,29 @@
+baseURL = "http://kunnaspe-hugo-site.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Kunnas Hugo Site"
+theme = "PaperMod"
+
+[params]
+  author = "Paul Kunnas"
+  description = "A Hugo static site deployed using AWS S3 and CodePipeline"
+  env = "production"
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 30
