@@ -54,8 +54,8 @@ Hugo outputs the static files to:
 
 # About Cloud9
 
-AWS Cloud9 may not be available in some AWS accounts/regions anymore.  
-For development, I’m using either:
+AWS Cloud9 is not available for new accounts anymore.  
+For development, reccomend using:
 - a local IDE + Git (SSH/HTTPS), or
 - GitHub Codespaces
 
