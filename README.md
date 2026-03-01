@@ -13,7 +13,7 @@ This repository contains my Hugo static website. I’m using the **PaperMod** th
 
 # Requirements
 
-- Hugo **Extended** (recommended)
+- Hugo **Extended** (my recommendation)
 - Git
 
 # Clone the repo
