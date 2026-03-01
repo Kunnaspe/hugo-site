@@ -1,6 +1,6 @@
 # Kunnas Hugo Site (PaperMod) deployed to AWS S3
 
-This repository contains my Hugo static website. I’m using the **PaperMod** theme and deploying the generated site to an **AWS S3 bucket** via **AWS CodePipeline**.
+This repository contains my Hugo static website. I’m using the **PaperMod** theme and deployed my site to an **AWS S3 bucket** via my **AWS CodePipeline**.
 
 # What’s in this repo
 
