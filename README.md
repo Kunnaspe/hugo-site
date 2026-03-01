@@ -78,6 +78,7 @@ Both workflows still support the same CI/CD deployment pattern (GitHub → CodeB
 - https://github.com/Kaimiri/PaperMod_site - Paper Mod Theme
 - https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html - AWS CodeBuild Buildspec Reference
 - https://gohugo.io/installation/windows/ - install on windows
+- https://github.com/noahgift/github-actions-pytest - example scaffolding, gitignore and requirements.txt for lab 3
 
 # Site URL (Temporarily Hosted on AWS)
 - http://kunnaspe-hugo-site.s3-website-us-east-1.amazonaws.com/
