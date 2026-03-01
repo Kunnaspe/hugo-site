@@ -1,3 +1,9 @@
+# Course documents (local only)
+CLD-410_SWDD.txt
+CLD-410_SWDD-template.txt
+SDD_Example.docx
+.claude/
+
 # Hugo generated files
 public/
 resources/_gen/
