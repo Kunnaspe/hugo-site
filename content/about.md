@@ -6,8 +6,7 @@ draft: false
 
 ## About My Site
 
-This is a Hugo static site deployed to an AWS S3 bucket.  
-The site was developed and delivered via AWS CodePipeline and CodeBuild.
+This is a Hugo static site deployed to an AWS S3 bucket; developed and delivered via AWS CodePipeline and CodeBuild.
 
 ### Technologies 
 
