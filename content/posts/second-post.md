@@ -12,12 +12,12 @@ This is my second blog post on my new Hugo site.
 
 ### Reflections
 
-Going into this project, I honestly wasn't sure what to expect. I'd heard of static site generators before but never actually used one, and the idea of wiring together GitHub, AWS CodeBuild, CodePipeline, and S3 all at once felt like a lot of moving parts.
+Going into this project, I honestly wasn't sure what to expect. It was confusing at first. However, I've made a lot of progress so i'm replacing this filler content with my actual reflection for Lab 4:
                                                                                                                                                                                                                                                                                                                                                                                                                                  
-Getting Hugo set up locally was pretty straightforward — picking the PaperMod theme and getting a basic site running didn't take long. The harder part was understanding how all the AWS pieces fit together. CodePipeline makes sense in theory: something changes in GitHub, AWS notices, builds the site, and drops the files into S3. But actually configuring it — IAM roles, artifact buckets, service permissions —
-there's a lot that has to be right before anything works.
-
-The issue that tripped me up most was the git submodule problem. CodeBuild pulls your source code as a ZIP, which means it has no git history, so running git submodule update just fails. Once I understood why it was failing it was an easy fix — clone the theme directly during the build instead — but it took some digging to get there.
-
-What actually stuck with me from this is how much infrastructure lives behind something as simple as "push code, site updates." Before this I would've just dragged files into an S3 bucket manually. Now I have a pipeline that handles it automatically, and I have a much better sense of how CI/CD works in practice, not just as a concept. That part felt genuinely useful, not just as an assignment but as something
-I'd actually use again.
+It was a little frustrating at first because our assignments and course instruction frequently mention cloud 9 which isn't available to new AWS accounts. However, I eventually figured out there other options, 
+i.e. using a local ide or codespaces along with hugo extended and pushing changes to github via codepipeline and codebuild (a good efficiency).  Amplify could have made things even faster but it skips the 
+pipeline tools... which defeats some of the purpose of this assignment.  I like how this course is taking us incrementally through the tasks. Starting with the python scaffold, github examples and now 
+iteratively with the videos. The content does need to be updated as the tools in Github, Hugo, and AWS are changing. Fortunately with Github and AWS there is ample documentation on how to do things and 
+even AWS support if you run into a snag. There is a cost for running the services and because I had to activate paid services with my other course I'm no longer on thee free plan for AWS. Ultimately, 
+I'm happy know that I can easily build static pages, manage an codepipeline and rapidly push changes from a local source to github and then to site within minutes. I've attached screenshots of my repo, 
+pipeline and S3 bucket. Also, my repo is at this link with more information there in my README on my setup. 
